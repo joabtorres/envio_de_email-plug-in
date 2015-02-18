@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
+	font-weight: 
+}
+.text-center{
+	text-align: center;
+}
+div.container{
+	margin: 5px;
+	padding: 5px;
+}
+form *{
+	font-size: 14pt;
+	padding: 2px 5px;
+}
+form#formulario{
+	width: 700px;
+}
+form#formulario input[type="text"],form#formulario input[type="email"],form#formulario input[type="tel"], form#formulario textarea{
+	width: 95%;
+	margin: 1px auto;
+	border-radius: 5px;
+	border: 2px solid #cecece;
+}
+form#formulario input:focus, form#formulario textarea:focus{
+	border-color: #999;
+}
+form#formulario input[type="submit"],form#formulario input[type="reset"]{
+padding: 4px 15px;
+margin: 1px 5px;
+}
+.form-group label{
+display: block;
+}
+.form-group fieldset{
+	width: 95%;
+}
+.form-group fieldset label{
+	display: inline-block;
+	padding: 15px;
+}
